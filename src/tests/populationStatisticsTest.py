@@ -1,11 +1,17 @@
-import unittest
-from populationStatistics import PopulationStatistics
+from generalStatistics import GeneralStatistics
 
 
-class PopulationStatisticsTest(unittest.TestCase):
+class PopulationStatistics(GeneralStatistics):
 
-    def setUp(self) -> None:
-        self.p_stats = PopulationStatistics()
+    def __init__(self):
+        super().__init__()
+        pass
 
-    def test_object_instance(self):
-        self.assertIsInstance(self.p_stats, PopulationStatistics)
+    def sample_mean(self):
+        pass
+
+    def sample_variance(self):
+        pass
+
+    def sample_standard_deviation(self):
+        pass
