@@ -1,15 +1,11 @@
 import unittest
-from populationStatistics import populationStatistics
+from populationStatistics import PopulationStatistics
 
 
 class PopulationStatisticsTest(unittest.TestCase):
 
     def setUp(self) -> None:
-        self.p_stats = populationStatistics()
+        self.p_stats = PopulationStatistics()
 
-    def test_something(self):
-        self.assertIsInstance(self.p_stats, populationStatistics)
-
-
-if __name__ == '__main__':
-    unittest.main()
+    def test_object_instance(self):
+        self.assertIsInstance(self.p_stats, PopulationStatistics)
