@@ -35,3 +35,8 @@ class Calculator:
     def nroot(self, a, n):
         self.result = nth_root(a, n)
         return self.result
+
+
+    def aggr(self, a):
+        self.result = aggregate(a)
+        return self.result
