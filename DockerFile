@@ -1,5 +1,7 @@
-FROM python:3
+FROM python:3.9
 
 ADD src /src
 
-CMD [ "python", "./src/CalculatorTests.py" ]
+ENV PYTHONPATH=src/calculator
+
+CMD ["python", "./src/runTestProcess.py"]
