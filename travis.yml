@@ -1,7 +1,6 @@
-  - docker
+language: python
+python:
+  - 3.9
 
-before_install:
-  - docker build -t python-stats-calc:0.0
-  - docker run -d python-stats-calc:0.0
-  - docker ps -a
-  - docker run python-stats-calc:0.0
+services:
+  - docker 
