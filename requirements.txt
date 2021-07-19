@@ -15,7 +15,6 @@ dbus-python==1.2.16
 diff-match-patch==20200713
 distlib==0.3.2
 filelock==3.0.12
-gpg===1.14.0-unknown
 grpcio==1.38.1
 html5lib==1.1
 httplib2==0.18.1
