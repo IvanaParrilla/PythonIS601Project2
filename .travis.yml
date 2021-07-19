@@ -11,7 +11,7 @@ install:
 # command to run tests
 
 script:
-  - python .src/runTestProcess.py
+  - python src/runTestProcess.py
 
 branches:
   only:
