@@ -38,7 +38,6 @@ pycups==2.0.1
 pycurl==7.43.0.6
 pyenchant==3.2.0
 Pygments==2.7.1
-PyGObject==3.38.0
 PyHamcrest==1.9.0
 pylibacl==0.6.0
 pyOpenSSL==20.0.1
