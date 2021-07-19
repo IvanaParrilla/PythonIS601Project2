@@ -65,7 +65,6 @@ toml==0.10.2
 tornado==6.1
 translate-toolkit==3.3.2
 Twisted==20.3.0
-unattended-upgrades==0.1
 urllib3==1.26.5
 vboxapi==1.0
 virtualenv==20.4.7
